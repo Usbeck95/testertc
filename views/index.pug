@@ -3,3 +3,9 @@ extends layout
 block content
   h1= title
   p Welcome to #{title}
+
+  form
+        label(for='search') Søg
+        input#search(type='search')
+        button#btnSearch Søg
+        
